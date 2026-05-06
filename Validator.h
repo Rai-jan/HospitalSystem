@@ -1,7 +1,8 @@
 #pragma once
 #include "Utility.h"
 #include <time.h>
-#include "Person.h"
+#include "Types.h"
+#include "InvalidInputException.h"
 class Validator {
     public:
         static bool validateID(const char*);

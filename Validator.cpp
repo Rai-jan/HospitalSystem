@@ -1,6 +1,5 @@
 #include "Validator.h"
-#include "Utility.h"
-#include <time.h>
+
 bool Validator::validateID(const char* id) {
     if(id == nullptr) {
         return false;
@@ -8,8 +7,8 @@ bool Validator::validateID(const char* id) {
     if(!isDigit(id)) {
         return false;
     }
-    int id = CharToInt(id);
-    if(id <= 0) {
+    int idValue = CharToInt(id);
+    if(idValue <= 0) {
         return false;
     }
 
@@ -24,14 +23,17 @@ bool Validator::validateDate(const char* date) {
     }
     //Validate date
     char dayStr[3];
-    getPart(date, 0, 2);
+    getPart(dayStr,date, 0, 2);
     int day = CharToInt(dayStr);
     char monthStr[3];
-    getPart(date, 3, 5);
+    getPart(monthStr,date, 3, 5);
     int month = CharToInt(monthStr);
     char yearStr[5];
-    getPart(date, 6, 10);
+    getPart(yearStr,date, 6, 10);
     int year = CharToInt(yearStr);
+    if(day == -999 || month == -999 || year == -999) {
+        return false; // Invalid number
+    }
     time_t t = time(0); 
 
     tm* now = localtime(&t);
@@ -52,14 +54,18 @@ bool Validator::validateTimeSlot(const char* timeSlot) {
     }
     //Validate time slot
     char hourStr[3];
-    getPart(timeSlot, 0, 2);
+    getPart(hourStr,timeSlot, 0, 2);
     int hour = CharToInt(hourStr);
     char minuteStr[3];
-    getPart(timeSlot, 3, 5);
+    getPart(minuteStr,timeSlot, 3, 5);
     int minute = CharToInt(minuteStr);
+    if(hour == -999 || minute == -999) {
+        return false; // Invalid number
+    }
     if(hour<9 || hour>15 || minute!=0) {
         return false;
     }
+
     return true; // Placeholder
 }
 bool Validator::validateContact(const char* contact) {
@@ -102,4 +108,50 @@ bool Validator::validatePassword(const char* password) {
         }
     }
     return true; // Placeholder
+}
+bool Validator::validatePositiveFloat(const char* str) {
+    if(str == nullptr) {
+        return false;
+    }
+    int length = getLength(str);
+    bool hasDecimal = false;
+    for(int i = 0; i < length; i++) {
+        if(str[i] == '-') {
+            return false; // Negative number
+        }
+        if(str[i] == '.') {
+            if(hasDecimal) {
+                return false; // More than one decimal point
+            }
+            hasDecimal = true;
+        } else if(str[i] < '0' || str[i] > '9') {
+            return false; // Not a digit
+        }
+ 
+    }
+    return true; // Placeholder
+}
+bool Validator::validateMenuChoice(int choice, int min, int max) {
+    return choice >= min && choice <= max;
+}
+bool Validator::validateAge(const char* age) {
+    if(age == nullptr) {
+        return false;
+    }
+    if(!isDigit(age)) {
+        return false;
+    }
+    int ageValue = CharToInt(age);
+    if(ageValue == -999) {
+        return false; // Invalid number
+    }
+    return ageValue >= 0 && ageValue <= 120;
+}
+Gender Validator::validateGender(char gender) {
+    if(gender == 'M' || gender == 'm'){
+        return MALE;
+    } else if(gender == 'F' || gender == 'f') {
+        return FEMALE;
+    }
+    throw InvalidInputException("Invalid gender");
 }
