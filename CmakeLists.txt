@@ -34,7 +34,9 @@ add_executable(HospitalSystem main.cpp
     InvalidInputException.h
     InvalidInputException.cpp
     SlotUnavailableException.h
-    SlotUnavailableException.cpp)
+    SlotUnavailableException.cpp
+    Utility.h
+    Utility.cpp)
 
 # 4. (Optional) Specify the C++ standard
 set(CMAKE_CXX_STANDARD 17)

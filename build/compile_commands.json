@@ -88,5 +88,11 @@
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\SlotUnavailableException.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\SlotUnavailableException.cpp\"",
   "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/SlotUnavailableException.cpp",
   "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/SlotUnavailableException.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\Utility.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\Utility.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/Utility.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/Utility.cpp.obj"
 }
 ]
