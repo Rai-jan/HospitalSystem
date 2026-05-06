@@ -1,0 +1,3 @@
+C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir
+C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/edit_cache.dir
+C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/rebuild_cache.dir
