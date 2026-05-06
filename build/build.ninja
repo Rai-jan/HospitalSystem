@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: MyAwesomeProject
-# Configurations: 
+# Configurations: Debug
 # =============================================================================
 
 #############################################
@@ -20,6 +20,11 @@
 
 ninja_required_version = 1.5
 
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
 # =============================================================================
 # Include auxiliary files.
 
@@ -44,12 +49,124 @@ cmake_ninja_workdir = C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/build/
 
 build cmake_object_order_depends_target_HospitalSystem: phony || .
 
-build CMakeFiles/HospitalSystem.dir/main.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_ C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/main.cpp || cmake_object_order_depends_target_HospitalSystem
+build CMakeFiles/HospitalSystem.dir/main.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/main.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
   DEP_FILE = CMakeFiles\HospitalSystem.dir\main.cpp.obj.d
+  FLAGS = -g
   OBJECT_DIR = CMakeFiles\HospitalSystem.dir
   OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
-  TARGET_COMPILE_PDB = CMakeFiles\HospitalSystem.dir\
-  TARGET_PDB = HospitalSystem.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/Appointment.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/Appointment.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\Appointment.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/Doctor.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/Doctor.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\Doctor.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/Patient.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/Patient.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\Patient.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/Admin.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/Admin.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\Admin.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/person.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/person.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\person.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/Bill.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/Bill.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\Bill.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/Prescription.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/Prescription.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\Prescription.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/FileHandler.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/FileHandler.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\FileHandler.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/Validator.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/Validator.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\Validator.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/HospitalException.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/HospitalException.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\HospitalException.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/FileNotFoundException.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/FileNotFoundException.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\FileNotFoundException.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/InsufficientFundsException.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/InsufficientFundsException.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\InsufficientFundsException.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/InvalidInputException.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/InvalidInputException.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\InvalidInputException.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
+
+build CMakeFiles/HospitalSystem.dir/SlotUnavailableException.cpp.obj: CXX_COMPILER__HospitalSystem_unscanned_Debug C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/SlotUnavailableException.cpp || cmake_object_order_depends_target_HospitalSystem
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\HospitalSystem.dir\SlotUnavailableException.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HospitalSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\HospitalSystem.dir
   TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
 
 
@@ -60,15 +177,16 @@ build CMakeFiles/HospitalSystem.dir/main.cpp.obj: CXX_COMPILER__HospitalSystem_u
 #############################################
 # Link the executable HospitalSystem.exe
 
-build HospitalSystem.exe: CXX_EXECUTABLE_LINKER__HospitalSystem_ CMakeFiles/HospitalSystem.dir/main.cpp.obj
+build HospitalSystem.exe: CXX_EXECUTABLE_LINKER__HospitalSystem_Debug CMakeFiles/HospitalSystem.dir/main.cpp.obj CMakeFiles/HospitalSystem.dir/Appointment.cpp.obj CMakeFiles/HospitalSystem.dir/Doctor.cpp.obj CMakeFiles/HospitalSystem.dir/Patient.cpp.obj CMakeFiles/HospitalSystem.dir/Admin.cpp.obj CMakeFiles/HospitalSystem.dir/person.cpp.obj CMakeFiles/HospitalSystem.dir/Bill.cpp.obj CMakeFiles/HospitalSystem.dir/Prescription.cpp.obj CMakeFiles/HospitalSystem.dir/FileHandler.cpp.obj CMakeFiles/HospitalSystem.dir/Validator.cpp.obj CMakeFiles/HospitalSystem.dir/HospitalException.cpp.obj CMakeFiles/HospitalSystem.dir/FileNotFoundException.cpp.obj CMakeFiles/HospitalSystem.dir/InsufficientFundsException.cpp.obj CMakeFiles/HospitalSystem.dir/InvalidInputException.cpp.obj CMakeFiles/HospitalSystem.dir/SlotUnavailableException.cpp.obj
+  CONFIG = Debug
+  FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\HospitalSystem.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\HospitalSystem.dir\
   TARGET_FILE = HospitalSystem.exe
   TARGET_IMPLIB = libHospitalSystem.dll.a
-  TARGET_PDB = HospitalSystem.pdb
+  TARGET_PDB = HospitalSystem.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\HospitalSystem.dir
 
 
@@ -116,14 +234,14 @@ build all: phony HospitalSystem.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/build/cmake_install.cmake: RERUN_CMAKE | C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/CMakeLists.txt C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.0/CMakeCXXCompiler.cmake CMakeFiles/4.2.0/CMakeRCCompiler.cmake CMakeFiles/4.2.0/CMakeSystem.cmake
+build build.ninja C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/build/cmake_install.cmake: RERUN_CMAKE | C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/CMakeLists.txt C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.0/CMakeCXXCompiler.cmake CMakeFiles/4.2.0/CMakeRCCompiler.cmake CMakeFiles/4.2.0/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/CMakeLists.txt C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.0/CMakeCXXCompiler.cmake CMakeFiles/4.2.0/CMakeRCCompiler.cmake CMakeFiles/4.2.0/CMakeSystem.cmake: phony
+build C$:/Users/RMAJ/Desktop/Project$ OOPs/HospitalSystem/CMakeLists.txt C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.0/CMakeCXXCompiler.cmake CMakeFiles/4.2.0/CMakeRCCompiler.cmake CMakeFiles/4.2.0/CMakeSystem.cmake: phony
 
 
 #############################################

@@ -1,0 +1,92 @@
+[
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\main.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\main.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/main.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\Appointment.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\Appointment.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/Appointment.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/Appointment.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\Doctor.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\Doctor.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/Doctor.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/Doctor.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\Patient.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\Patient.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/Patient.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/Patient.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\Admin.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\Admin.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/Admin.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/Admin.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\person.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\person.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/person.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/person.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\Bill.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\Bill.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/Bill.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/Bill.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\Prescription.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\Prescription.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/Prescription.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/Prescription.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\FileHandler.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\FileHandler.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/FileHandler.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/FileHandler.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\Validator.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\Validator.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/Validator.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/Validator.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\HospitalException.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\HospitalException.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/HospitalException.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/HospitalException.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\FileNotFoundException.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\FileNotFoundException.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/FileNotFoundException.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/FileNotFoundException.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\InsufficientFundsException.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\InsufficientFundsException.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/InsufficientFundsException.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/InsufficientFundsException.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\InvalidInputException.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\InvalidInputException.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/InvalidInputException.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/InvalidInputException.cpp.obj"
+},
+{
+  "directory": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\HospitalSystem.dir\\SlotUnavailableException.cpp.obj -c \"C:\\Users\\RMAJ\\Desktop\\Project OOPs\\HospitalSystem\\SlotUnavailableException.cpp\"",
+  "file": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/SlotUnavailableException.cpp",
+  "output": "C:/Users/RMAJ/Desktop/Project OOPs/HospitalSystem/build/CMakeFiles/HospitalSystem.dir/SlotUnavailableException.cpp.obj"
+}
+]

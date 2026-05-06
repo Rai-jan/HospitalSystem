@@ -7,7 +7,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-f6f22219c74102c3da70.json",
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "HospitalSystem::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-HospitalSystem-20a63c4dc7c8abdc9649.json",
+					"jsonFile" : "target-HospitalSystem-Debug-3c401cfb1ca4f414af76.json",
 					"name" : "HospitalSystem",
 					"projectIndex" : 0
 				}
