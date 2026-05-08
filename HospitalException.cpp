@@ -1,12 +1,11 @@
-#include "hospitalException.h"
+#include "HospitalException.h"
 
 const char* HospitalException::what() {
+    std::cout << "HospitalException: " << message;
     return message;
 }
 void HospitalException::setMessage(const char* msg) {
     int length = getLength(msg);
-    if(length >= 200) {
-        length = 199; // Truncate if message is too long
-    }
+    if(length >= 199) length = 199;
     copyarray(message, msg, length);
 }

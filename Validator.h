@@ -1,8 +1,9 @@
 #pragma once
 #include "Utility.h"
-#include <time.h>
 #include "Types.h"
 #include "InvalidInputException.h"
+#include <ctime>
+
 class Validator {
     public:
         static bool validateID(const char*);
@@ -14,4 +15,6 @@ class Validator {
         static bool validateMenuChoice(int, int min, int max);
         static bool validateAge(const char*);
         static Gender validateGender(char);
+        static bool validateName(const char*, int maxLen = 50);
+        static bool validateBalance(const char*, long long& outBalance); // returns false if too large
 };

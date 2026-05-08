@@ -1,10 +1,8 @@
+#pragma once
 #include "HospitalException.h"
-
 class SlotUnavailableException : public HospitalException {
-    private:
-        char message[200];
     public:
-        SlotUnavailableException(const char* );
-        const char* what() override ;
-        void setMessage(const char* ) override;
+        SlotUnavailableException(const char* msg);
+        const char* what() override;
+        void setMessage(const char* msg) override;
 };

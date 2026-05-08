@@ -1,9 +1,8 @@
-#include"HospitalException.h"
+#pragma once
+#include "HospitalException.h"
 class FileNotFoundException : public HospitalException {
-    private:
-        char message[200];
     public:
-        FileNotFoundException(const char* );
-        const char* what() override ;
-        void setMessage(const char* ) override;
+        FileNotFoundException(const char* msg);
+        const char* what() override;
+        void setMessage(const char* msg) override;
 };

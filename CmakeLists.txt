@@ -6,33 +6,37 @@ project(MyAwesomeProject LANGUAGES CXX)
 
 # 3. Define your target (the executable name and its source files)
 add_executable(HospitalSystem main.cpp
-    Appointment.cpp
-    Appointment.h
-    Doctor.cpp
-    Doctor.h
-    Patient.cpp
-    Patient.h
     Admin.cpp
     Admin.h
-    person.cpp
-    person.h 
+    Appointment.cpp
+    Appointment.h
     Bill.cpp
     Bill.h
-    Prescription.cpp
-    Prescription.h
-    Storage.h
+    Doctor.cpp
+    Doctor.h
+    DoctorMenu.cpp
+    DoctorMenu.h
     FileHandler.h
     FileHandler.cpp
-    Validator.h
-    Validator.cpp
-    HospitalException.cpp
-    HospitalException.h 
     FileNotFoundException.cpp
     FileNotFoundException.h
+    HospitalException.cpp
+    HospitalException.h 
     InsufficientFundsException.cpp
     InsufficientFundsException.h
     InvalidInputException.h
     InvalidInputException.cpp
+    Patient.cpp
+    Patient.h
+    PatientMenu.cpp
+    PatientMenu.h
+    person.cpp
+    person.h 
+    Prescription.cpp
+    Prescription.h
+    Storage.h
+    Validator.h
+    Validator.cpp
     SlotUnavailableException.h
     SlotUnavailableException.cpp
     Utility.h
